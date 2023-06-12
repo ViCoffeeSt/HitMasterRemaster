@@ -6,7 +6,7 @@ public class ObjectPoolBullet : MonoBehaviour
     public static ObjectPoolBullet Instance;
 
     [SerializeField] private GameObject objectPrefab;
-    [SerializeField] private int poolSize = 3;
+    [SerializeField] private int poolSize;
 
     private List<GameObject> _pooledObjects;
 
